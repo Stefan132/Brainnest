@@ -1,0 +1,138 @@
+CSS
+
+
+1. What are the main differences between external, internal, and inline CSS? 
+
+A: Inline CSS allows you to add styles to specific HTML elements. The internal CSS stylesheet allows you to include CSS code in <head> section of a markup document. 
+External stylesheet works by linking a . css file, containing all the CSS rules, to an HTML document;
+
+
+2. What is the syntax for class and ID selectors?
+
+A: The syntax for class and ID selectors is #;
+
+
+3. How would you apply a single rule to two different selectors?
+
+A: Using the same class.
+
+
+4. Given an element that has an id of title and a class of primary, how would you use both
+attributes for a single rule?
+
+A: Using only the id rule.
+
+
+5. What does the descendant combinator do?
+
+A: Typically represented by a single space (" ") character — combines two selectors such that elements matched by the second selector are selected if they have an ancestor (parent, parent's parent, 
+
+
+6. Between a rule that uses one class selector and a rule that uses three type selectors,
+which rule has the higher specificity?
+
+A: The one which uses one class selector;
+
+
+7. From inside to outside, what is the order of box-model properties?
+
+A: CONTENT PADDING BORDER MARGIN;
+
+
+8. What does the box-sizing CSS property do?
+
+A: The box-sizing CSS property sets how the total width and height of an element is calculated.
+
+
+9. What is the difference between the standard and alternative box model?
+
+A: If you are using the standard box model, the size of the border is added to the width and height of the box. If you are using the alternative box model then the size of the border makes the content box smaller as it takes up some of that available width and height .
+
+
+10. Would you use margin or padding to create more space between 2 elements?
+
+A: Padding.
+
+
+11. Would you use margin or padding to create more space between the contents of an
+element and its border?
+
+A: Margin.
+
+
+12. Would you use margin or padding if you wanted two elements to overlap each other?
+
+A: Padding.
+
+
+13. What is the difference between a block element and an inline element? 
+
+A: Block Elements occupy the full width irrespective of their sufficiency. Inline elements don't start in a new line. 
+
+
+14. What is the difference between an inline element and an inline-block element?
+
+A: By default, inline elements do not force a new line to begin in the document flow. Block elements, on the other hand, typically cause a line break to occur 
+
+
+15. Is an h1 block or inline?
+
+A: Inline.
+
+
+16. Is button block or inline?
+
+A: Inline-block.
+
+
+17. Is div block or inline?
+
+A: Block
+
+
+18. Is span block or inline?
+
+A: Inline.
+
+
+19. What’s the difference between a flex container and a flex item?
+
+A: Flexbox allows fine-tuning of alignments to ensure exact specification sharing. Flex Direction allows developers to align elements vertically or horizontally, which is used when developers create and reverse rows or columns.
+
+
+20. How do you create a flex item?
+
+A: Using 
+row
+row-reverse
+column
+column-reverse
+
+
+21. What are the 3 values defined in the shorthand flex property?
+
+
+A: flex-grow; flex-shrink; flex-basis;
+
+
+22. How do you make flex items arrange themselves vertically instead of horizontally?
+
+A: Using justify-content.
+
+
+23. What is the difference between justify-content and align-items?
+
+
+A: justify-content — controls alignment of all items on the main axis. align-items — controls alignment of all items on the cross axis
+
+
+24. How do you use flexbox to completely center a div inside a flex container?
+
+A: To center the inner div element we will make the parent a flex container. By adding the display: flex; property we make the section element a flex container allowing us to adjust the layout of the div which is now a flex item. To center out item horizontally we use the justify-content: center;
+
+
+25. What’s the difference between justify-content: space-between and justify-content:
+space-around?
+
+
+A: space-between : items are evenly distributed in the line; first item is on the start line, last item on the end line. space-around : items are evenly distributed in the line with equal space around them.

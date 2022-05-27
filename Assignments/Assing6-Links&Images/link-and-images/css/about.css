@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/Romania2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+
+/***************NAVBAR SECTION***************/
+
+
+.navbar {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
+    
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 35px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: beige;
+    
+}
+
+ul li a:hover {
+    color: rgba(255, 255, 255, 0.1)
+}
+
+/***************TEXT SECTION***************/
+
+.row {
+
+    align-items: center;
+    display: flex;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color:rgba(255, 255, 255, 0.1);
+    padding: 10px; 
+    font-size: 50px;
+    text-shadow: black 3px 2px;
+}
+
+p { 
+    color: beige;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.video {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 230px;
+    margin-bottom: 150px;
+}

@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#hero-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #1F2937;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+
+/*****************NAVBAR SECTION***************************/
+
+
+.navbar {
+    height: 8%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #E5E7EB;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/*************************TEXT SECTION***********************/
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+.row .col p {
+    color: #E5E7EB;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+
+/************************BUTTON SECTION************************/
+
+button {
+    width: 180px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 0;
+    background: #3882F6;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+.second-button {
+    width: 180px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 0;
+    background: #3882F6;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+    border: 3px solid whitesmoke;
+    margin-bottom: 20px;
+    margin-left: 60%;
+}
+
+
+/************************PLACEHOLDER SECTION*********************/
+
+
+.placeholder {
+    width: 560px;
+    height: 250px;
+    display: inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 25px;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(151, 138, 138);
+    filter: blur(0.5px);
+}
+
+.placeholder p {
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+
+/***********************INFORMATION SECTION*********************/
+
+#information {
+
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+#information p {
+    color: #1F2937;
+    text-align: center;
+}
+
+#information .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+#information  .col {
+    flex-basis: 8%;
+    box-sizing: border-box;
+    padding: 30px; 
+}
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 4px solid #3882F6;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .col {
+    flex-basis: 33.33%;
+    }
+    }
+    @media screen and (max-width: 768px) {
+    .col {
+    flex-basis: 50%;
+    }
+    }
+    @media screen and (max-width: 414px) {
+    .col {
+    flex-basis: 100%;
+    }
+}
+
+
+/***************************QUOTE SECTION***************************/
+
+
+#quote {
+    background-color: #E5E7EB;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.signature {
+    color: #1F2937;
+    font-size: 36px;
+    text-align: justify;
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.thor {
+    font-size: 24px;
+    color:#1F2937;
+    font-weight: bold;
+    margin-left: 82%;
+    padding-top: 2%;
+}
+
+/***************************CALL SECTION***************************/
+
+
+#call {
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bracket {
+    background-color: #3882F6;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-position: center;
+    margin: 25px 75px 55px;
+    
+}
+
+h2 {
+    font-weight: bold;
+    color: whitesmoke;
+    padding-left: 50px;
+}
+
+.bracket p {
+    color: whitesmoke;
+    padding-left: 50px;
+}
+
+
+/***************************FOOTER SECTION***************************/
+
+
+#footer {
+    background-color:#1F2937;
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
