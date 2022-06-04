@@ -1,0 +1,134 @@
+1. Name the three ways to declare a variable?
+
+A: var;let;const
+
+2. Which of the three variable declarations should you avoid and why? 
+
+A: “let” can but updated but cannot redeclared. Just like “var”, a variable declared with “let” can be updated within its scope. Unlike “var”, a “let” variable cannot be redeclared within its scope.
+
+3. What rules should you follow when naming variables?
+
+A: Do not begin variable names with an underscore.
+   Name your variables based on the terms of the subject area, so that the variable name clearly describes its purpose.
+   Do not use variable names that consist of a single character.
+
+4. What should you look out for when using the + operator with numbers and strings?
+
+A: Usually, the plus operator + sums numbers, but, if the binary + is applied to strings, it merges (concatenates) them.
+
+5. How does the % operator work?
+
+A: Modulus operator. Returns remainder of two operands.
+
+6. Explain the difference between == and ===. 
+
+A: The difference between == and === is that: == converts the variable values to the same type before performing comparison. This is called type coercion. === does not do any type conversion (coercion) and returns true only if both values and types are identical for the two variables being compared.
+
+7. When would you receive a NaN result?
+
+A: You get NaN when the value cannot be computed or as a result of attempted number coercion (type conversion) of non-numeric value (such that undefined) for which primitive numeric value is not available.
+
+8. How do you increment and decrement a number?
+
+A: In programming (Java, C, C++, JavaScript etc.), the increment operator ++ increases the value of a variable by 1. Similarly, the decrement operator -- decreases the value of a variable by 1.
+
+9. Explain the difference between prefixing and post-fixing increment/decrement operators. 
+
+A: Postfix decrement operator means the expression is evaluated first using the original value of the variable and then the variable is decremented(decreased). Prefix increment operator means the variable is incremented first and then the expression is evaluated using the new value of the variable.
+
+10. What is operator precedence and how is it handled in JS? 
+
+A: Operator precedence determines how operators are parsed concerning each other. Operators with higher precedence become the operands of operators with lower precedence
+
+11. How do you log information to the console?
+
+A: console.log("INFORMATION");
+
+12. What does unary plus operator do to string representations of integers?
+
+A: The unary plus ( + ) operator is the fastest (and preferred) method of converting something into a number. It can convert: string representations of integers (decimal or hexadecimal) and floats.
+
+13. What are the eight data types in JavaScript?
+
+A:  String.
+    Number.
+    Boolean.
+    Null.
+    Undefined.
+    Symbol.
+    BigInt.
+    Object.
+
+14. Which data type is NOT primitive?
+
+A: object
+
+
+15. What is the relationship between null and undefined?
+
+A: null is an assigned value. It means nothing. undefined means a variable has been declared but not defined yet. null is an object.
+
+
+16. What is the difference between single, double, and backtick quotes for strings?
+
+A: You can choose one or multiple styles based on your preference. However, It is always good to stick to a single format throughout the project to keep it neat and consistent.
+
+
+17. What is the term for embedding variables/expressions in a string?
+
+
+18. Which type of quote lets you embed variables/expressions in a string? 
+
+
+19. How do you embed variables/expressions in a string?
+
+
+20. How do you escape characters in a string? 
+
+
+21. What is the difference between the slice/substring/substr string methods? 
+
+
+22. What are the three logical operators and what do they stand for?
+
+
+23. What are the comparison operators?
+
+
+24. What are truthy and falsy values?
+
+
+25. What are the falsy values in JavaScript? 
+
+
+26. What are conditionals?
+
+
+27. What is the syntax for an if/else conditional? 
+
+
+28. What is the syntax for a switch statement?
+
+
+29. What is the syntax for a ternary operator?
+
+
+30. What is nesting?
+
+
+31. What are functions useful for? 
+
+
+32. How do you invoke a function?
+
+
+33. What are anonymous functions?
+
+
+34. What is function scope? 
+
+
+35. What are return values?
+
+
+36. What are arrow functions?

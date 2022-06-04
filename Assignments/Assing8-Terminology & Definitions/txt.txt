@@ -9,12 +9,12 @@ External stylesheet works by linking a . css file, containing all the CSS rules,
 
 2. What is the syntax for class and ID selectors?
 
-A: The syntax for class and ID selectors is #;
+A: The syntax for class and ID selectors is .  #;
 
 
 3. How would you apply a single rule to two different selectors?
 
-A: Using the same class.
+A: Using the same selectors separated by comma.
 
 
 4. Given an element that has an id of title and a class of primary, how would you use both
@@ -51,8 +51,7 @@ A: If you are using the standard box model, the size of the border is added to t
 
 10. Would you use margin or padding to create more space between 2 elements?
 
-A: Padding.
-
+A: padding
 
 11. Would you use margin or padding to create more space between the contents of an
 element and its border?
@@ -102,11 +101,7 @@ A: Flexbox allows fine-tuning of alignments to ensure exact specification sharin
 
 20. How do you create a flex item?
 
-A: Using 
-row
-row-reverse
-column
-column-reverse
+A: Using display flex
 
 
 21. What are the 3 values defined in the shorthand flex property?
@@ -117,7 +112,7 @@ A: flex-grow; flex-shrink; flex-basis;
 
 22. How do you make flex items arrange themselves vertically instead of horizontally?
 
-A: Using justify-content.
+A: Using justify-content, flex-direction :column
 
 
 23. What is the difference between justify-content and align-items?
