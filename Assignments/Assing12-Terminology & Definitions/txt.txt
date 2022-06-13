@@ -1,10 +1,16 @@
+
+JAVASCRIPT 1
+
+
 1. Name the three ways to declare a variable?
 
 A: var;let;const
 
+
 2. Which of the three variable declarations should you avoid and why? 
 
 A: “let” can but updated but cannot redeclared. Just like “var”, a variable declared with “let” can be updated within its scope. Unlike “var”, a “let” variable cannot be redeclared within its scope.
+
 
 3. What rules should you follow when naming variables?
 
@@ -12,41 +18,54 @@ A: Do not begin variable names with an underscore.
    Name your variables based on the terms of the subject area, so that the variable name clearly describes its purpose.
    Do not use variable names that consist of a single character.
 
+
 4. What should you look out for when using the + operator with numbers and strings?
 
 A: Usually, the plus operator + sums numbers, but, if the binary + is applied to strings, it merges (concatenates) them.
+
 
 5. How does the % operator work?
 
 A: Modulus operator. Returns remainder of two operands.
 
+
 6. Explain the difference between == and ===. 
 
-A: The difference between == and === is that: == converts the variable values to the same type before performing comparison. This is called type coercion. === does not do any type conversion (coercion) and returns true only if both values and types are identical for the two variables being compared.
+A: The difference between == and === is that: == converts the variable values to the same type before performing comparison. This is called type coercion. === does not do any type conversion  and returns true only if both values and types are identical for the two variables being compared.
+
 
 7. When would you receive a NaN result?
 
 A: You get NaN when the value cannot be computed or as a result of attempted number coercion (type conversion) of non-numeric value (such that undefined) for which primitive numeric value is not available.
 
+
 8. How do you increment and decrement a number?
+
 
 A: In programming (Java, C, C++, JavaScript etc.), the increment operator ++ increases the value of a variable by 1. Similarly, the decrement operator -- decreases the value of a variable by 1.
 
+
 9. Explain the difference between prefixing and post-fixing increment/decrement operators. 
+
 
 A: Postfix decrement operator means the expression is evaluated first using the original value of the variable and then the variable is decremented(decreased). Prefix increment operator means the variable is incremented first and then the expression is evaluated using the new value of the variable.
 
+
 10. What is operator precedence and how is it handled in JS? 
 
-A: Operator precedence determines how operators are parsed concerning each other. Operators with higher precedence become the operands of operators with lower precedence
+
+A: Operator precedence determines how operators are parsed concerning each other. Operators with higher precedence become the operands of operators with lower precedence.
+
 
 11. How do you log information to the console?
 
 A: console.log("INFORMATION");
 
+
 12. What does unary plus operator do to string representations of integers?
 
 A: The unary plus ( + ) operator is the fastest (and preferred) method of converting something into a number. It can convert: string representations of integers (decimal or hexadecimal) and floats.
+
 
 13. What are the eight data types in JavaScript?
 
@@ -58,6 +77,7 @@ A:  String.
     Symbol.
     BigInt.
     Object.
+
 
 14. Which data type is NOT primitive?
 
@@ -76,59 +96,115 @@ A: You can choose one or multiple styles based on your preference. However, It i
 
 17. What is the term for embedding variables/expressions in a string?
 
+A: A template literal is used to embed expressions. You can add values such as variables and mathematical calculations into a string using interpolation.
+
 
 18. Which type of quote lets you embed variables/expressions in a string? 
+
+A: The single and the double quotes
 
 
 19. How do you embed variables/expressions in a string?
 
+A: One special feature of the template literal feature is the ability to include expressions and variables within a string. Instead of having to use concatenation, we can use the ${} syntax to insert a variable.
+
 
 20. How do you escape characters in a string? 
+
+A: \ is a special character within a string used for escaping
 
 
 21. What is the difference between the slice/substring/substr string methods? 
 
+A:  slice() extracts parts of a string and returns the extracted parts in a new string. substr() extracts parts of a string, beginning at the character at the specified position, and returns the specified number of characters. substring() extracts parts of a string and returns the extracted parts in a new string.
+
 
 22. What are the three logical operators and what do they stand for?
 
+A:  1-Evaluates operands from left to right. 
+    2-For each operand converts it to boolean. If the result is true, stops and returns the original value of that operand. 
+    3-If all operands have been evaluated, returns the last operand. 
 
 23. What are the comparison operators?
 
 
+A: Comparison operators — operators that compare values and return true or false . The operators include: > , < , >= , <= , === , and !== . Logical operators — operators that combine multiple boolean expressions or values and provide a single boolean output.
+
+
 24. What are truthy and falsy values?
+
+A: Truthy values are values that evaluate to True in a boolean context. Falsy values are values that evaluate to False in a boolean context. Falsy values include empty sequences (lists, tuples, strings, dictionaries, sets), zero in every numeric type, None , and False 
 
 
 25. What are the falsy values in JavaScript? 
 
+A: A falsy value is something which evaluates to FALSE, for instance when checking a variable. There are only six falsey values in JavaScript: undefined , null , NaN , 0 , "" (empty string), and false of course.
+
 
 26. What are conditionals?
+
+A: Conditional statements control behavior in JavaScript and determine whether or not pieces of code can run. 
 
 
 27. What is the syntax for an if/else conditional? 
 
+A: In JavaScript we have the following conditional statements: Use if to specify a block of code to be executed, if a specified condition is true. Use else to specify a block of code to be executed, if the same condition is false. Use else if to specify a new condition to test, if the first condition is false.
+
 
 28. What is the syntax for a switch statement?
+
+A: switch(expression) {
+  case n:
+    code block
+    break;
+  case n:
+    code block
+    break;
+  default:
+    default code block
+}
 
 
 29. What is the syntax for a ternary operator?
 
+A: condition ? exprIfTrue : exprIfFalse
+
 
 30. What is nesting?
+
+A: Nesting is when you write something inside of something else.
 
 
 31. What are functions useful for? 
 
+A: In JavaScript, a function allows you to define a block of code, give it a name and then execute it as many times as you want. A JavaScript function can be defined using function keyword.
+
 
 32. How do you invoke a function?
+
+A: function myFunction(a, b) {
+  return a * b;
+}
+myFunction(10, 2);  
 
 
 33. What are anonymous functions?
 
+A: Anonymous Function is a function that does not have any name associated with it. Normally we use the function keyword before the function name to define a function in JavaScript, however, in anonymous functions in JavaScript, we use only the function keyword without the function name.
+
 
 34. What is function scope? 
+
+A:  JavaScript has function scope: Each function creates a new scope.
+    Variables defined inside a function are not accessible (visible) from outside the function. Variables declared with var , let and const are quite similar when declared inside a function. 
+    They all have Function Scope: function myFunction() {
 
 
 35. What are return values?
 
 
+A: Return values are just what they sound like — the values that a function returns when it has completed. You've already met return values a number of times, although you may not have thought about them explicitly.
+
 36. What are arrow functions?
+
+A: Arrow functions differ from traditional functions in a number of ways, including the way their scope is determined and how their syntax is expressed.

@@ -18,12 +18,12 @@
 
         /*var L = 9
         var diagonal = L * Math.sqrt(2);
-        document.write("The diagonal of the square is: " + diagonal);*/
+        console.log("The diagonal of the square is: " + diagonal);*/
 
 
 
         function calculateSquareDiagonal (l) {
-            return l * Math.sqrt(2);
+            return l * Math.sqrt(2).toFixed(2);
         }
 
         var result = calculateSquareDiagonal(9);
@@ -48,7 +48,7 @@
 
         function calculateTriangleArea(a, b, c){
             var s = (a + b + c) / 2;
-            return Math.sqrt(s * ((s - a) * (s - b) * (s - c)));
+            return Math.sqrt(s * ((s - a) * (s - b) * (s - c))).toFixed(2);
         }
 
         var result = calculateTriangleArea(5, 6 ,7)
@@ -61,19 +61,19 @@
     <script>
 
 
-        //C = 2πr;
-        var C = 2 * 3.14 * 4;
-        console.log("The Circumference of the circle is: " + C);
+        // //C = 2πr;
+        // var C = 2 * 3.14 * 4;
+        // console.log("The Circumference of the circle is: " + C);
 
 
-        console.log("<br>")
+        // console.log("<br>")
 
         
-        //A = πr2;
-        var A = 3.14 * 4 ** 2;
-        console.log("The Surface of the circle is: " + A)
+        // //A = πr2;
+        // var A = 3.14 * 4 ** 2;
+        // console.log("The Surface of the circle is: " + A)
 
-        console.log("<br>")
+        // console.log("<br>")
 
 
 
@@ -83,7 +83,7 @@
             this.radius = radius;
 
             // this.getArea = () => console.log(3.14 * radius ** 2);
-            this.getArea = () => document.write("The Circumference of the circle is: " + (3.14 * radius ** 2));
+            this.getArea = () => document.write("The Area of the circle is: " + (3.14 * radius ** 2));
 
 
             // this.getCircumference = () => console.log(2 * 3.14 * radius);

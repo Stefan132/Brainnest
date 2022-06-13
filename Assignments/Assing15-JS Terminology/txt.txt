@@ -1,0 +1,140 @@
+1.Why is it important to write clean code?
+
+A:Writing clean code is important because it allows you to clearly communicate with the next person who works with what you've written. Being able to return to previously written code and understand what it does is key, especially in the software development world.
+
+2.What is the difference between good comments and bad comments?
+
+A:A good comment tells the reader why this particular code is doing whatever it is doing or explains what a section of code is about to do. A bad comment restates what a particular line of code is doing.
+
+3.What is an array?
+
+A:An array is a collection of similar data elements stored at contiguous memory locations. It is the simplest data structure where each data element can be accessed directly by only using its index number.
+
+4.What are arrays useful for?
+
+A:Arrays are used when there is a need to use many variables of the same type. 
+
+5.How do you acces an aray element?
+
+A:You can access an array element by referring to its index number. array[index]
+
+6.How do you change an array element?
+
+A: Use the indexOf() method to get the index of the element/Using bracket notation change the value of the element at the specific index.
+
+7.What are some useful array properties?
+
+A: some()
+   every()
+   reduce()
+   map()
+   flat()
+   filter()
+   forEach()
+   findIndex()
+
+8.What are some useful array methods?
+
+A:  filter() Example Use Case. Reimplementing filter.
+    forEach() Example Use Case. Reimplementing forEach.
+    some() Example Use Case. Reimplementing some.
+    every() Example Use Case. 
+    includes() Example Use Case. 
+    map() Example Use Case. 
+    reduce() Example Use Case. 
+    sort() Example Use Case.
+
+
+9.What are the loops useful for?
+
+A: When programmers write code, loops allow them to shorten what could be hundreds of lines of code to just a few. This allows them to write the code once and repeat it as many times as needed, making it more likely for the program to run as expected.
+
+10.What is the break statement?
+ 
+A: The break statement breaks out of a switch or a loop. In a switch, it breaks out of the switch block. This stops the execution of more code inside the switch. In in a loop, it breaks out of the loop and continues executing the code after the loop (if any).
+
+11.What is the continue statement?
+
+A: A continue statement ends the current iteration of a loop. Program control is passed from the continue statement to the end of the loop body.
+
+12.What is the DOM?
+
+A: Document object model. With the Document Object Model, programmers can create and build documents, navigate their structure, and add, modify, or delete elements and content.
+
+13.How do you target the nodes you want to work with?
+
+A:  document.getElementById, document.querySelector
+
+14.How do you create an element in the DOM?
+
+A: const element = document.createElement(htmlTag);
+   const e = document.createElement('div'); 
+   e.innerHTML = 'JavaScript DOM'; 
+   document.body.appendChild(e); 
+   var textnode = document.createTextNode('JavaScript DOM'); e.appendChild(textnode);
+
+
+15.How do you add an element to the DOM?
+
+A: First, create a div section and add some text to it using <p> tags.
+   Create an element <p> using document. createElement("p").
+   Create a text, using document.
+   Using appendChild() try to append the created element, along with text, to the existing div tag.
+
+16.How do you remove an element from the DOM?
+
+A: e.parentElement.removeChild(e);
+
+17.How can you alter an element in the DOM?
+
+A: Create an HTML element with document. createElement.
+   Add content to the HTML element by setting the innerHTML .
+   Add it to the DOM with parentNode. prepend or parentNode. append .
+
+18.When adding  text to a DOM element, should you use textContent or innerHTML?
+
+A: Because of this reason, using innerHTML is not recommended when inserting plain text, instead use textContent . The textContent property will not understand that the code you pass is an HTML syntax, but just a 100% text no more and no less.
+
+19.Where should you include your JavaScript tag in your HTML file when working with DOM nodes?
+
+A: The <script> tag can be placed in the <head> section of your HTML or in the <body> section, depending on when you want the JavaScript to load. Generally, JavaScript code can go inside of the document <head> section in order to keep them contained and out of the main content of your HTML document
+
+20.How do “events” and “listeners” work?
+
+A: Often an event listener is registered with the object that generates the event. When the event occurs, the object iterates through all listeners registered with it informing them of the event.
+
+21.What are three ways to use events in your code?
+
+A: There are three ways to declare an event in JavaScript: inline, using a property, or using a listener.
+
+22.Why are event listeners the preferred way to handle events?
+
+A:Events are signals fired inside the browser window that notify of changes in the browser or operating system environment. Programmers can create event handler code that will run when an event fires, allowing web pages to respond appropriately to change.
+
+23.What are the benefits of using named functions in your listeners?
+
+A: In JavaScript, named functions are simply a way of referring to a function that employs the function keyword followed by a name that can be used as a callback to that function. 
+
+24.How do you attach listeners to groups of nodes?
+
+A: Usign loops 
+
+25.What is the difference between the return values of querySelector and querySelectorAll?
+
+A: The only difference is the querySelectorAll()[0] will first find all the items that match the selector and then index the first item. Whereas querySelector() will "short circuit" once it finds the first element.
+
+26.What does a “nodelist” contain?
+
+A: A NodeList is a collection of document nodes (element nodes, attribute nodes, and text nodes). HTMLCollection items can be accessed by their name, id, or index number. NodeList items can only be accessed by their index number. An HTMLCollection is always a live collection.
+
+27.Explain the difference between capture and bubbling.
+
+A: With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements. With capturing, the event is first captured by the outermost element and propagated to the inner elements.
+
+28.What is the difference between objects and arrays?
+
+A: Objects represent a special data type that is mutable and can be used to store a collection of data. Arrays are a special type of variable that is also mutable and can also be used to store a list of values.
+
+29. How do you acces object properties?
+
+A: object['property'], { property } = object.
